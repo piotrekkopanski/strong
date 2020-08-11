@@ -1,0 +1,288 @@
+.jumbotron {
+  background: black !important;
+  color: white;
+}
+
+input.form-control.has-error {
+  border: 1px solid red;
+}
+
+.row.series_box {
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-bottom: 2px;
+}
+.container-fluid {
+	overflow-y: scroll
+}
+
+.modal-body {
+  font-size: 2.5vw;
+}
+
+i.fas.fa-2x.fa-minus-circle {
+    color: red;
+}
+
+.hide {
+  display: none !important;
+}
+
+.series_error.col-12 {
+  color: red;
+  font-family: Courier, Monaco, monospace;
+  font-weight: 600;
+}
+
+nav.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #000000cc;
+  color: white;
+}
+/*@media (min-width:600px) {
+  .modal-body {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width:800px) {
+  .modal-body {
+    font-size: 1vw;
+  }
+}*/
+
+.error-message {
+  font-weight: 700;
+  color: red;
+}
+
+
+.training-index {
+  border: 1px solid white;
+  height: 12vw;
+  margin-bottom: 1vw;
+  margin-right: 1vw;
+  overflow-wrap: break-word;
+}
+
+.font-courier {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: 550;
+}
+
+i.fas.fa-2x.fa-heartbeat {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row.series_box.cardio {
+  border-style: dashed;
+}
+
+.row.series_box.drop_set {
+  border-color: darkblue;
+  margin-left: 1em;
+}
+
+/*========== form  modal ==========*/
+input.input-small {
+	width: 6em !important;
+	border: 1px inset;
+}
+
+.series.col-2.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.series.col-3.form.exercise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label.form-series {
+	display: inline-block;
+	height: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+label.form-series.exercise {
+  margin-top: 1vw;
+}
+/*========== form  modal ==========*/
+/*============ show training =============*/
+ label.show-series {
+ 	font-size: 1.5vw;
+ 	width: 100%;
+  margin-top: 1em;
+  height: 1em;
+ }
+/* =================================================== max 600px ============================================================ */
+
+@media (max-width:600px) {
+  .modal-body {
+    font-size: 1.5vw;
+  }
+/*========== form  modal ==========*/
+	select.input-small {
+		width: 75px;
+		height: 23px;
+		font-size: 2vw;
+		margin-left: 0px;
+		padding: 1px;
+	}
+
+	input.input-small.time {
+	  width: 11vw !important;
+	}
+
+	.series.col-2.form.exercise {
+	  max-width: 72px !important;
+	}
+
+	select.form-control.input-small.exercise {
+		width: 9em;
+		height: 4vw;
+	}
+
+  select.form-control.input-small.type {
+    width: 7em;
+    height: 4vw;
+  }
+
+	.remove-icon {
+	  min-width: 19px;
+	  margin-left: auto!important;
+	  align-self: center!important;
+	}
+
+	input.time {
+	font-size: 2vw;
+ }
+ /*========== form  modal ==========*/
+
+ label.show-series {
+    width: 10em;
+    margin-left: -16% !important;
+}
+}
+
+/* =================================================== 600 - 900 ============================================================ */
+
+@media  (max-width: 900px) and (min-width: 600px) {
+  .modal-body {
+    font-size: 1.3vw;
+  }
+/*========== form  modal ==========*/
+	select.input-small {
+		font-size: 1.3vw;
+		padding: 1px;
+	}
+
+	input.input-small.time {
+	  width: 8vw !important;
+	}
+
+	select.form-control.input-small.exercise {
+		width: 8em;
+		height: 3vw;
+	}
+
+	select.form-control.input-small.type {
+    width: 6em;
+    height: 3vw;
+  }
+
+	.remove-icon {
+	  min-width: 25px;
+	  margin-left: auto!important;
+	  align-self: center!important;
+	}
+
+	input.time {
+	  font-size: 1.3vw;
+  }
+
+  label.form-series.exercise {
+    margin-bottom: 0.2em;
+  }
+
+  /*========== form  modal ==========*/
+  label.show-series {
+  	width: 160%;
+    margin-left: -16% !important;
+  }
+
+  .show-series.col-3.exercise {
+    margin-left: 1vw;
+  }
+}
+
+/* ===================================================  min 900 ============================================================ */
+
+@media (min-width: 900px) {
+  .modal-body {
+    font-size: 1vw;
+  }
+/*========== form  modal ==========*/
+  select.input-small {
+		font-size: 1vw;
+		padding: 1px;
+	}
+
+	input.input-small.time {
+	  width: 6vw !important;
+	}
+
+	select.form-control.input-small.exercise {
+		width: 8em;
+		height: 3vw;
+	}
+
+  select.form-control.input-small.type {
+    width: 9em;
+    height: 3vw;
+  }
+
+	.remove-icon {
+	  min-width: 25px;
+	  margin-left: auto!important;
+	  align-self: center!important;
+	}
+
+	label.form-series.exercise {
+    margin-bottom: 0.2em;
+  }
+
+  input.time {
+	  font-size: 1vw;
+  }
+
+	.modal-dialog.modal-90w {
+	  max-width: 80%;
+	}
+
+	.react-datepicker-wrapper {
+    width: 100%;
+  }
+
+  .show-series.exercise {
+  	margin-left: 2vw
+  }
+
+  label.show-series {
+  	width: 160%;
+    margin-left: -16% !important;
+  }
+  /*========== form  modal ==========*/
+}

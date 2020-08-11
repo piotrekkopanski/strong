@@ -1,0 +1,315 @@
+.position {
+   float: left;
+   padding-left: 1px;
+}
+
+i.fas.fa-2x.fa-minus-circle {
+    color: white;
+    cursor: pointer;
+}
+
+.tags-input {
+    padding: 0 8px;
+    border: 1px solid #d6d8da;
+    border-radius: 6px;
+}
+
+.row.positions {
+  border: 1px solid green;
+  border-radius: 12px;
+}
+
+.row.add_position {
+  float: right;
+  color: blue;
+}
+.session.col-12 {
+	border: 1px solid blue;
+	border-radius: 31px;
+}
+
+i.fas {
+	cursor: pointer;
+}
+
+i.fas.fa-3x.fa-trash-alt {
+  color: red;
+  float: right;
+}
+
+button.btn.btn-outline-primary {
+  margin-left: 2vw;
+}
+
+.row.position_box {
+    border: 1px solid green;
+    border-radius: 8px;
+}
+
+.row.position_box.cardio {
+  border-style: dashed;
+}
+
+.row.position_box.drop_set {
+  border-color: darkblue;
+  margin-left: 1em;
+}
+
+li.horizontally {
+  display: inline;
+  white-space: nowrap;
+}
+
+ul.horizontally {
+	margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li.horizontally.time {
+  border: solid 1px;
+  background: lightblue;
+  margin: 0.2em;
+}
+
+input.tag {
+  border: none;
+  outline: none;
+}
+
+input.input-big {
+    border: solid 1px blue;
+}
+
+/* =========== show  training plan ----> ============*/
+ .container-fluid {
+	  font-size: 1.4em;
+  }
+
+  .session_name {
+    font-size: 2em;
+    font-style: italic;
+  }
+
+  .show-position {
+    padding-left: 6px;
+    padding-right: 0px;
+    display: block;
+  }
+
+  label.show-position {
+    margin-bottom: 0.3em;
+    text-align: center;
+  }
+
+  i.fas.fa-2x.fa-heartbeat {
+  	float: right;
+  	margin-right: 0.2em;
+  }
+
+  .show_position_type {
+    text-align: center;
+  }
+/* =========== <----- show  training plan  ============*/
+
+ /* ============== edit training plan  ----> =============*/
+
+  .fa-2x {
+    font-size: 1em;
+    width: 1em;
+  }
+
+  select.exercise {
+    margin-left: -15px !important;
+  }
+
+  select.input-small {
+  	height: 2em !important;
+    width: 8em !important;
+  }
+
+
+  .tags-input {
+    padding: 0 2px;
+    border: 1px solid #d6d8da;
+    border-radius: 6px;
+    width: 23vw;
+  }
+
+  input.tag {
+  	width: 100%;
+  	font-size: 0.8em;
+  }
+
+  ul.tag {
+    padding: 0;
+    margin-bottom: 2px;
+  }
+
+  li.tag {
+    justify-content: center;
+    color: #fff;
+    padding: 0px 6px;
+    font-size: 1.5vw;
+    max-width: 4.5vw;
+    list-style: none;
+    border-radius: 6px;
+    display: inline-table;
+    align-items: center;
+    -webkit-box-pack: center;
+    margin: 2px 8px 8px 0;
+    background: #0052cc;
+  }
+
+  span.tag {
+    font-size: 1.6vw;
+  }
+
+  .row.add_position {
+    font-size: 0.8em !important;
+  }
+
+  .remove_position {
+    font-size: 0.8em;
+    color: red;
+  }
+
+  .fa-3x {
+    font-size: 2em;
+  }
+ /* ============== <------ edit training plan =============*/
+
+
+/* =================================================== max 600px ============================================================ */
+
+@media (max-width:600px) {
+
+  /* ============== edit training plan =============*/
+
+  .fa-2x {
+    font-size: 1em;
+    width: 1em;
+  }
+
+  select.exercise {
+    margin-left: -15px !important;
+  }
+
+  select.input-small {
+  	height: 2em !important;
+    width: 8em !important;
+    max-width: 13vw;
+    margin-left: 8px;
+  }
+
+
+  .tags-input {
+    padding: 0 2px;
+    border: 1px solid #d6d8da;
+    border-radius: 6px;
+    width: 22vw;
+  }
+
+  input.tag {
+  	width: 100%;
+  	font-size: 0.8em;
+  }
+
+  ul.tag {
+    padding: 0;
+    margin-bottom: 2px;
+  }
+
+  li.tag {
+    justify-content: center;
+    color: #fff;
+    padding: 0px 6px;
+    font-size: 1.5vw;
+    max-width: 4.5vw;
+    list-style: none;
+    border-radius: 6px;
+    display: inline-table;
+    align-items: center;
+    -webkit-box-pack: center;
+    margin: 2px 8px 8px 0;
+    background: #0052cc;
+  }
+
+  span.tag {
+    font-size: 1.6vw;
+  }
+
+  .row.add_position {
+    font-size: 0.8em !important;
+  }
+
+  .remove_position {
+    font-size: 0.8em;
+    color: red;
+  }
+
+  .fa-3x {
+    font-size: 2em;
+  }
+}
+
+/* =================================================== 600 - 900 ============================================================ */
+
+@media  (max-width: 900px) and (min-width: 600px) {
+	/* ============== edit training plan =============*/
+
+	.modal-dialog.modal-90w {
+    max-width: 90%;
+}
+}
+
+/* ===================================================  min 900 ============================================================ */
+
+@media (min-width: 900px) {
+	/* ============== edit training plan =============*/
+
+	.modal-dialog.modal-90w {
+    max-width: 90%;
+}
+
+  ul.tag {
+    padding: 0;
+    margin-bottom: 2px;
+  }
+
+  li.tag {
+    justify-content: center;
+    color: #fff;
+    padding: 0px 6px;
+    font-size: 1.5vw;
+    max-width: 4.5vw;
+    list-style: none;
+    border-radius: 6px;
+    display: inline-block;
+    align-items: center;
+    -webkit-box-pack: center;
+    margin: 2px 8px 8px 0;
+    background: #0052cc;
+  }
+
+  .tags-input {
+    padding: 0 8px;
+    border: 1px solid #d6d8da;
+    border-radius: 6px;
+    width: 22vw;
+  }
+
+  .fa-2x {
+    font-size: 0.7em;
+    max-width: 1vw;
+  }
+
+  span.tag {
+    font-size: 1.2vw;
+  }
+
+  select.form-control.input-small.exercise {
+    margin-left: 1vw !important;
+  }
+
+ }
